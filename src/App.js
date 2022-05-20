@@ -2,9 +2,6 @@ import './App.css';
 import React, {useState} from 'react';
 import Parking from "./Parking";
 
-
-
-
 function App() {
   const [count, setCount] = useState(0);
   const increaseCounter=()=>{

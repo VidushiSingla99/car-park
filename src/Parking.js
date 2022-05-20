@@ -10,6 +10,5 @@ export default function Parking({setCount, count, increaseCounter}) {
       <ParkingSpace count={count}/>
     </div>
   </div>
-
   )
 }

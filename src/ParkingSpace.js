@@ -6,7 +6,6 @@ export default function ParkingSpace({ count }) {
     window.alert("car number " + count + " is added");
   }, [count]);
 
-
   return (
     <div className="col-9" style={{ backgroundColor: "#90EE90" }}>
       <section>

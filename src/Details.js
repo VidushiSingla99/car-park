@@ -6,7 +6,6 @@ export default function Details({ increaseCounter, count }) {
   const [Model, setModel] = useState(localStorage.getItem("Model") ?? "");
   const [Color, setColor] = useState(localStorage.getItem("Color") ?? "");
   const [Time, setTime] = useState(localStorage.getItem("Time") ?? "");
-
   const [car, setCar] = useState();
 
   useEffect(() => {
@@ -24,9 +23,6 @@ export default function Details({ increaseCounter, count }) {
     { color: "red", Rno: "4" },
     { color: "white", Rno: "5" },
     { color: "blue", Rno: "6" },
-    { color: "red", Rno: "7" },
-    { color: "blue", Rno: "8" },
-    { color: "red", Rno: "9" },
   ];
 
   return (
