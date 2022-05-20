@@ -1,1 +1,22 @@
+File Name:- Car Park
 
+App.js----> Parking.js -------> Details.js and ParkingSpace.js  <The Components tree>
+
+
+Approach:-
+
+1. A main App component is calling the parking space which is divided into two spaces first is the registration space and second is the space where the cars would be parked. 
+
+2. In the registration space, a person would enter the details and it would be stored in their local storage <Working>
+
+3. The data stored in the local storage should be extracted in the form of a dictionary object <Not working>
+
+4. Therefore I have created a make shift dictionary object which has key- registration number and color.
+
+5. To give an example of the query, I used that dictionary object and iterated it using filter and map functions to display registration numbers, according to the color selected from the dropdown.
+
+Elements Used:-
+
+->Modular approach.
+->Use of hooks like:- useState and useEffect
+->Bootstrap functionality for a shorter code
